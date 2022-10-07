@@ -1,0 +1,17 @@
+   0 pwd
+   1 cd ..
+   2 ls
+   3 vi /tmp/file.txt
+   4 ps -ef
+   5 ps -ef | head -3 >> /tmp/file.txt
+   6 cat /tmp/file.txt 
+   7 cd tmp/
+   8 ls
+   9 chmod g+w file.txt
+  10 ls -la
+  11 chmod u-r file.txt
+  12 ls -la
+  13 chmod o+x file.txt
+  14 ls -la
+  15 history > tmp/history.txt
+  16 history > /tmp/history.txt
